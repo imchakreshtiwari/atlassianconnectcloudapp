@@ -1,0 +1,29 @@
+{
+  "key": "TestCrudBoot",
+  "baseUrl": "https://4288e670.ngrok.io",
+  "name": "Testcrudboot (Spring Boot)",
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "scopes": ["READ","WRITE"],
+  "apiMigrations": {
+    "gdpr": true
+  },
+    "modules": {
+    "generalPages": [
+      {
+        "key": "thymeleaf-page-jira",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "Add-User"
+        },
+        "url": "/signup"
+      }
+    ]
+  }
+  
+}

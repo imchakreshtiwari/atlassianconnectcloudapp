@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: TestCrudBoot
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: senthil-pc
+Implementation-Vendor-Id: com.crudtest.TestCrudBoot
+Build-Jdk: 1.8.0_172
+Implementation-URL: http://projects.spring.io/spring-boot/TestCrudBoot
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
